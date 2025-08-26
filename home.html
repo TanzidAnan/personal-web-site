@@ -30,12 +30,12 @@
                 </div>
                 <div class="divider"></div>
                 <div>
-                    <button class="btn btn-lg "><img src="assets/money1.png" alt=""> Add Money</button>
-                    <button class="btn btn-lg "><img src="assets/purse1.png" alt=""> Cash Out</button>
+                    <button id="btn-show-add-money" class="btn btn-lg "><img src="assets/money1.png" alt=""> Add Money</button>
+                    <button id="btn-show-cash-out" class="btn btn-lg "><img src="assets/purse1.png" alt=""> Cash Out</button>
                 </div>
                 <div class="divider"></div>
                 <!-- Add money from state -->
-                <div class=" hidden card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl text-center">
+                <div id="add-money-form" class="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl text-center">
                     <form class="card-body ">
                         <div class="form-control">
                             <label class="label">
@@ -58,7 +58,7 @@
                 </div>
                 <!-- Add money from end -->
                 <!-- Cast out state -->
-                <div class="card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl text-center">
+                <div id="cast-out-form" class="hidden card bg-base-100 w-full max-w-lg shrink-0 shadow-2xl text-center">
                     <form class="card-body ">
                         <div class="form-control">
                             <label class="label">
@@ -86,6 +86,7 @@
         </div>
     </main>
 
+    <script src="js/features.js"></script>
     <script src="js/home.js"></script>
     <script src="js/cast-out.js"></script>
 </body>
