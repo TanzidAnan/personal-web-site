@@ -15,7 +15,7 @@
             <div class="camera"></div>
             <div class="display ">
                 <div class="artboard artboard-demo phone-3 ">
-                    <div class="hero bg-base-200 min-h-screen bg-white">
+                    <div class="hero bg-white min-h-screen">
                         <div class="hero-content flex-col lg:flex-row-reverse">
                             <div class="card bg-base-100 w-full max-w-full shrink-0 shadow-2xl">
                                 <form class="card-body">
@@ -23,7 +23,7 @@
                                         <label class="label">
                                             <span class="label-text">Mobile Number</span>
                                         </label>
-                                        <input type="number" placeholder="Enter Mobile Number" class="input input-bordered" required />
+                                        <input id="phone-number" type="number" placeholder="Enter Mobile Number" class="input input-bordered" autocomplete="off" required />
                                     </div>
                                     <div class="form-control">
                                         <label class="label">
@@ -36,7 +36,7 @@
                                         </label>
                                     </div>
                                     <div class="form-control mt-6">
-                                        <button class="btn btn-primary">Login</button>
+                                        <button id="btn-login" class="btn btn-primary">Login</button>
                                     </div>
                                 </form>
                             </div>
@@ -46,6 +46,8 @@
             </div>
         </div>
     </main>
+
+    <script src="js/login.js"></script>
 </body>
 
 </html>
