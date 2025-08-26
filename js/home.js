@@ -6,10 +6,12 @@ document.getElementById('btn-add-mony').addEventListener('click',function(event)
 
     const addInputMoney =document.getElementById('add-money-input').value;
     const addPinNumber =document.getElementById('add-pin-input').value;
-
+    
     if(addPinNumber === '1234'){
         console.log('adding money to your account');
-        
+        const balance =document.getElementById('account-balance').innerText;
+        console.log(balance)
+
     }
     else{
         alert('Failed to add money! please try again')
