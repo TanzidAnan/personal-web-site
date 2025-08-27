@@ -10,3 +10,7 @@ document.getElementById('btn-show-add-money').addEventListener('click',function(
     document.getElementById('cast-out-form').classList.add('hidden')
     document.getElementById('add-money-form').classList.remove('hidden')
 })
+
+document.getElementById('log-out').addEventListener('click',function(){
+    window.location.href='index.html'
+})
